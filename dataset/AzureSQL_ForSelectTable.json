@@ -1,0 +1,12 @@
+{
+	"name": "AzureSQL_ForSelectTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSQLFOR_Linked",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
