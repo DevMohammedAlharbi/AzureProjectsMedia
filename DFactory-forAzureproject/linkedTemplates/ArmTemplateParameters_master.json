@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DFactory-forAzureproject"
+		},
+		"AzureDataLakeStorageFor_Linked_accountKey": {
+			"value": ""
+		},
+		"AzureSQLFOR_Linked_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorageFor_Linked_properties_typeProperties_url": {
+			"value": "https://storge4azureproject.dfs.core.windows.net/"
+		},
+		"AzureSQLFOR_Linked_properties_typeProperties_server": {
+			"value": "server-for-azureproject.database.windows.net"
+		},
+		"AzureSQLFOR_Linked_properties_typeProperties_database": {
+			"value": "AzureProjectMoH"
+		},
+		"AzureSQLFOR_Linked_properties_typeProperties_userName": {
+			"value": "admin-server"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
